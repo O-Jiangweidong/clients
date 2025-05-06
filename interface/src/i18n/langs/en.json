@@ -1,6 +1,6 @@
 {
   "Common": {
-    "JumpServerClient": "JumpServerClient",
+    "ToecsecClient": "ToecsecClient",
     "AppDesc": "Introduction",
     "DownloadUrl":"Download Link",
     "AppPath": "Application Path",

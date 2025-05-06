@@ -18,8 +18,8 @@ module.exports = {
       nodeIntegration: true,
       customFileProtocol: './',
       builderOptions: {
-        productName: 'JumpServerClient',
-        appId: 'com.jumpserver.client',
+        productName: 'ToecsecClient',
+        appId: 'com.toecsec.client',
         afterSign: "build/sign/notarize.js",
         asar: false,
         extraResources: [
@@ -57,7 +57,7 @@ module.exports = {
             ]
           }],
           // eslint-disable-next-line no-template-curly-in-string
-          artifactName: 'JumpServer-Client-Installer-${os}-v${version}-${arch}.${ext}',
+          artifactName: 'Toecsec-Client-Installer-${os}-v${version}-${arch}.${ext}',
           protocols: {
             name: "Jms",
             schemes: ["jms"]
@@ -66,15 +66,9 @@ module.exports = {
         win: {
           icon: 'build/icons/icon.ico',
           // eslint-disable-next-line no-template-curly-in-string
-          artifactName: 'JumpServer-Client-Installer-${os}-v${version}-${arch}.${ext}',
+          artifactName: 'Toecsec-Client-Installer-${os}-v${version}-${arch}.${ext}',
           target: [{
             target: 'nsis',
-            arch: [
-              'x64',
-              'ia32'
-            ]
-          },{
-            target: 'msiWrapped',
             arch: [
               'x64',
               'ia32'
@@ -90,7 +84,7 @@ module.exports = {
         linux: {
           icon: 'build/icons/',
           // eslint-disable-next-line no-template-curly-in-string
-          artifactName: 'JumpServer-Client-Installer-${os}-v${version}-${arch}.${ext}',
+          artifactName: 'Toecsec-Client-Installer-${os}-v${version}-${arch}.${ext}',
           target: [{
             target: 'deb',
             arch: [

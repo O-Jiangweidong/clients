@@ -149,7 +149,7 @@ const handleOpenFromUrl = (url) => {
         subPath += "/darwin"
     }
     console.log(subPath)
-    let exeFilePath = path.join(subPath, 'JumpServerClient')
+    let exeFilePath = path.join(subPath, 'ToecsecClient')
     const {execFile} = require('child_process')
     execFile(exeFilePath, [url], (error, stdout, stderr) => {
         if (error) {

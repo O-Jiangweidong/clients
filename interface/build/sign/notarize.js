@@ -23,7 +23,7 @@ async function main(context) {
   const appName = context.packager.appInfo.productFilename;
 
   await notarize({
-    appBundleId: "com.jumpserver.client",  // 将com.example.app替换为你自己项目的id
+    appBundleId: "com.toecsec.client",  // 将com.example.app替换为你自己项目的id
     appPath: `${appOutDir}/${appName}.app`,
     teamId: XCODE_APP_TEAM_ID,
     appleId: XCODE_APP_LOADER_EMAIL,

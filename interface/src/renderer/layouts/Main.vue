@@ -4,7 +4,7 @@
       class="fake-title-bar"
     >
       <div class="fake-title-bar__title">
-        {{ $t('Common.JumpServerClient') }}
+        {{ $t('Common.ToecsecClient') }}
       </div>
     </div>
     <el-row class="main-content">

@@ -1,6 +1,6 @@
 {
   "Common": {
-    "JumpServerClient": "JumpServer客户端",
+    "ToecsecClient": "Toecsec客户端",
     "AppDesc": "应用说明",
     "DownloadUrl":"下载地址",
     "AppPath": "应用路径",
